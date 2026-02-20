@@ -1,0 +1,33 @@
+# Arduino build files
+*.hex
+*.elf
+*.bin
+*.map
+
+# Temporary files
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build directories
+build/
+bin/
+obj/
+
+# Log files
+*.log
+screenlog.*
+
+# Libraries (if managed externally)
+# Uncomment if you want to exclude libraries
+# libraries/
