@@ -13,7 +13,7 @@ Arduino project for testing air quality and environmental sensors with the Spark
 
 ### Sensors
 
-1. **BMV080** - Air Quality Sensor (PM1, PM2.5, PM10)
+1. **BMV080** - Air Quality Sensor 
    - Product: [SparkFun Air Quality Sensor](https://www.sparkfun.com/sparkfun-air-quality-pm1-pm2-5-pm10-sensor-bmv080-qwiic.html)
    - Interface: I2C (Qwiic)
    - Library: [SparkFun BMV080 Arduino Library](https://github.com/sparkfun/SparkFun_BMV080_Arduino_Library)
@@ -61,7 +61,7 @@ Example output:
 2000,12.50,15.30,18.20,5.000,125.50,3.300,45.20,12.000,200.00,22.50,45.30,1013.25,150.45,10.25
 ```
 
-Example using screen on Mac/Linux:
+using screen
 ```bash
 screen -L /dev/ttyACM0 115200
 ```
